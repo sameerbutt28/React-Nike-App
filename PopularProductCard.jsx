@@ -1,4 +1,4 @@
-// import star from '../assets/assets/icons'
+// import {star} from '../assets/assets/images'
 const PopularProductCard = ({imgURL, name, price }) => {
   return (
     <div className='flex flex-1 flex-col w-full max-sm:w-full'>
