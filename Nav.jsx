@@ -10,7 +10,7 @@ const Nav = () => {
                 </a>
                 <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
                     {
-                        navLinks.map((item) => {
+                                    navLinks.map((item) => {
                             return (
                                 <li key={item.label}>
                                     <a href={item.href}
