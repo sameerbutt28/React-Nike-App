@@ -33,7 +33,7 @@ const Hero = () => {
           })}
         </div>
       </div>
-      <div className="flex flex-1 justify-center relative items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-hero bg-center">
+      <div className="flex  flex-col flex-1 justify-center relative items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-hero bg-center">
         <img
         src={bigShoeImage}
         alt="shoes collection"
@@ -41,8 +41,7 @@ const Hero = () => {
         height={500}
         className="relative z-10 object-contain"
         />
-      </div>
-      <div className="flex sm:gap-6 gap-4 absolute  xl:-bottom-[-72%] xl:left-[48%]   ">
+      <div className="flex absolute bottom-[-8%] gap-8 ">
         {shoes.map((shoe)=>(
           <div key={shoe}>
             <ShoeCard
@@ -57,6 +56,8 @@ const Hero = () => {
 
         ))}
       </div>
+      </div>
+
       
     </section>
   )
